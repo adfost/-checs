@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		482ADE181CF3C95C0055DE2D /* Bishop.m in Sources */ = {isa = PBXBuildFile; fileRef = 482ADE0D1CF3C95C0055DE2D /* Bishop.m */; };
+		482ADE191CF3C95C0055DE2D /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 482ADE0F1CF3C95C0055DE2D /* Board.m */; };
+		482ADE1A1CF3C95C0055DE2D /* King.m in Sources */ = {isa = PBXBuildFile; fileRef = 482ADE121CF3C95C0055DE2D /* King.m */; };
+		482ADE1B1CF3C95C0055DE2D /* Knight.m in Sources */ = {isa = PBXBuildFile; fileRef = 482ADE141CF3C95C0055DE2D /* Knight.m */; };
+		482ADE1C1CF3C95C0055DE2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 482ADE151CF3C95C0055DE2D /* main.m */; };
+		482ADE1D1CF3C95C0055DE2D /* Move.m in Sources */ = {isa = PBXBuildFile; fileRef = 482ADE171CF3C95C0055DE2D /* Move.m */; };
+		482ADE301CF3C97F0055DE2D /* Pawn.m in Sources */ = {isa = PBXBuildFile; fileRef = 482ADE1F1CF3C97E0055DE2D /* Pawn.m */; };
+		482ADE311CF3C97F0055DE2D /* Piece.m in Sources */ = {isa = PBXBuildFile; fileRef = 482ADE211CF3C97E0055DE2D /* Piece.m */; };
+		482ADE321CF3C97F0055DE2D /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 482ADE231CF3C97E0055DE2D /* Player.m */; };
+		482ADE331CF3C97F0055DE2D /* Queen.m in Sources */ = {isa = PBXBuildFile; fileRef = 482ADE251CF3C97E0055DE2D /* Queen.m */; };
+		482ADE341CF3C97F0055DE2D /* Rook.m in Sources */ = {isa = PBXBuildFile; fileRef = 482ADE271CF3C97E0055DE2D /* Rook.m */; };
+		482ADE351CF3C97F0055DE2D /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = 482ADE291CF3C97E0055DE2D /* Square.m */; };
+		482ADE361CF3C97F0055DE2D /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 482ADE2B1CF3C97E0055DE2D /* Start.m */; };
+		482ADE381CF3C97F0055DE2D /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 482ADE2F1CF3C97F0055DE2D /* Tools.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		48253DD31C890F7000888791 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		48253DD51C890F7000888791 /* Chess */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Chess; sourceTree = BUILT_PRODUCTS_DIR; };
+		482ADE0C1CF3C95C0055DE2D /* Bishop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bishop.h; path = Schaken/Bishop.h; sourceTree = "<group>"; };
+		482ADE0D1CF3C95C0055DE2D /* Bishop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bishop.m; path = Schaken/Bishop.m; sourceTree = "<group>"; };
+		482ADE0E1CF3C95C0055DE2D /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Board.h; path = Schaken/Board.h; sourceTree = "<group>"; };
+		482ADE0F1CF3C95C0055DE2D /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Board.m; path = Schaken/Board.m; sourceTree = "<group>"; };
+		482ADE101CF3C95C0055DE2D /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Color.h; path = Schaken/Color.h; sourceTree = "<group>"; };
+		482ADE111CF3C95C0055DE2D /* King.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = King.h; path = Schaken/King.h; sourceTree = "<group>"; };
+		482ADE121CF3C95C0055DE2D /* King.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = King.m; path = Schaken/King.m; sourceTree = "<group>"; };
+		482ADE131CF3C95C0055DE2D /* Knight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Knight.h; path = Schaken/Knight.h; sourceTree = "<group>"; };
+		482ADE141CF3C95C0055DE2D /* Knight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Knight.m; path = Schaken/Knight.m; sourceTree = "<group>"; };
+		482ADE151CF3C95C0055DE2D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Schaken/main.m; sourceTree = "<group>"; };
+		482ADE161CF3C95C0055DE2D /* Move.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Move.h; path = Schaken/Move.h; sourceTree = "<group>"; };
+		482ADE171CF3C95C0055DE2D /* Move.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Move.m; path = Schaken/Move.m; sourceTree = "<group>"; };
+		482ADE1E1CF3C97E0055DE2D /* Pawn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pawn.h; path = Schaken/Pawn.h; sourceTree = "<group>"; };
+		482ADE1F1CF3C97E0055DE2D /* Pawn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pawn.m; path = Schaken/Pawn.m; sourceTree = "<group>"; };
+		482ADE201CF3C97E0055DE2D /* Piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Piece.h; path = Schaken/Piece.h; sourceTree = "<group>"; };
+		482ADE211CF3C97E0055DE2D /* Piece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Piece.m; path = Schaken/Piece.m; sourceTree = "<group>"; };
+		482ADE221CF3C97E0055DE2D /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = Schaken/Player.h; sourceTree = "<group>"; };
+		482ADE231CF3C97E0055DE2D /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = Schaken/Player.m; sourceTree = "<group>"; };
+		482ADE241CF3C97E0055DE2D /* Queen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Queen.h; path = Schaken/Queen.h; sourceTree = "<group>"; };
+		482ADE251CF3C97E0055DE2D /* Queen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Queen.m; path = Schaken/Queen.m; sourceTree = "<group>"; };
+		482ADE261CF3C97E0055DE2D /* Rook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rook.h; path = Schaken/Rook.h; sourceTree = "<group>"; };
+		482ADE271CF3C97E0055DE2D /* Rook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Rook.m; path = Schaken/Rook.m; sourceTree = "<group>"; };
+		482ADE281CF3C97E0055DE2D /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Square.h; path = Schaken/Square.h; sourceTree = "<group>"; };
+		482ADE291CF3C97E0055DE2D /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Square.m; path = Schaken/Square.m; sourceTree = "<group>"; };
+		482ADE2A1CF3C97E0055DE2D /* Start.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Start.h; path = Schaken/Start.h; sourceTree = "<group>"; };
+		482ADE2B1CF3C97E0055DE2D /* Start.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Start.m; path = Schaken/Start.m; sourceTree = "<group>"; };
+		482ADE2E1CF3C97F0055DE2D /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tools.h; path = Schaken/Tools.h; sourceTree = "<group>"; };
+		482ADE2F1CF3C97F0055DE2D /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tools.m; path = Schaken/Tools.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48253DD21C890F7000888791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48253DCC1C890F7000888791 = {
+			isa = PBXGroup;
+			children = (
+				482ADE1E1CF3C97E0055DE2D /* Pawn.h */,
+				482ADE1F1CF3C97E0055DE2D /* Pawn.m */,
+				482ADE201CF3C97E0055DE2D /* Piece.h */,
+				482ADE211CF3C97E0055DE2D /* Piece.m */,
+				482ADE221CF3C97E0055DE2D /* Player.h */,
+				482ADE231CF3C97E0055DE2D /* Player.m */,
+				482ADE241CF3C97E0055DE2D /* Queen.h */,
+				482ADE251CF3C97E0055DE2D /* Queen.m */,
+				482ADE261CF3C97E0055DE2D /* Rook.h */,
+				482ADE271CF3C97E0055DE2D /* Rook.m */,
+				482ADE281CF3C97E0055DE2D /* Square.h */,
+				482ADE291CF3C97E0055DE2D /* Square.m */,
+				482ADE2A1CF3C97E0055DE2D /* Start.h */,
+				482ADE2B1CF3C97E0055DE2D /* Start.m */,
+				482ADE2E1CF3C97F0055DE2D /* Tools.h */,
+				482ADE2F1CF3C97F0055DE2D /* Tools.m */,
+				482ADE0C1CF3C95C0055DE2D /* Bishop.h */,
+				482ADE0D1CF3C95C0055DE2D /* Bishop.m */,
+				482ADE0E1CF3C95C0055DE2D /* Board.h */,
+				482ADE0F1CF3C95C0055DE2D /* Board.m */,
+				482ADE101CF3C95C0055DE2D /* Color.h */,
+				482ADE111CF3C95C0055DE2D /* King.h */,
+				482ADE121CF3C95C0055DE2D /* King.m */,
+				482ADE131CF3C95C0055DE2D /* Knight.h */,
+				482ADE141CF3C95C0055DE2D /* Knight.m */,
+				482ADE151CF3C95C0055DE2D /* main.m */,
+				482ADE161CF3C95C0055DE2D /* Move.h */,
+				482ADE171CF3C95C0055DE2D /* Move.m */,
+				48253DD61C890F7000888791 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48253DD61C890F7000888791 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48253DD51C890F7000888791 /* Chess */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48253DD41C890F7000888791 /* Chess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48253DDC1C890F7000888791 /* Build configuration list for PBXNativeTarget "Chess" */;
+			buildPhases = (
+				48253DD11C890F7000888791 /* Sources */,
+				48253DD21C890F7000888791 /* Frameworks */,
+				48253DD31C890F7000888791 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chess;
+			productName = Schaken;
+			productReference = 48253DD51C890F7000888791 /* Chess */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48253DCD1C890F7000888791 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Adam Stafford";
+				TargetAttributes = {
+					48253DD41C890F7000888791 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 48253DD01C890F7000888791 /* Build configuration list for PBXProject "Chess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 48253DCC1C890F7000888791;
+			productRefGroup = 48253DD61C890F7000888791 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48253DD41C890F7000888791 /* Chess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48253DD11C890F7000888791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482ADE361CF3C97F0055DE2D /* Start.m in Sources */,
+				482ADE351CF3C97F0055DE2D /* Square.m in Sources */,
+				482ADE311CF3C97F0055DE2D /* Piece.m in Sources */,
+				482ADE1C1CF3C95C0055DE2D /* main.m in Sources */,
+				482ADE331CF3C97F0055DE2D /* Queen.m in Sources */,
+				482ADE1B1CF3C95C0055DE2D /* Knight.m in Sources */,
+				482ADE381CF3C97F0055DE2D /* Tools.m in Sources */,
+				482ADE191CF3C95C0055DE2D /* Board.m in Sources */,
+				482ADE1A1CF3C95C0055DE2D /* King.m in Sources */,
+				482ADE1D1CF3C95C0055DE2D /* Move.m in Sources */,
+				482ADE181CF3C95C0055DE2D /* Bishop.m in Sources */,
+				482ADE321CF3C97F0055DE2D /* Player.m in Sources */,
+				482ADE301CF3C97F0055DE2D /* Pawn.m in Sources */,
+				482ADE341CF3C97F0055DE2D /* Rook.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		48253DDA1C890F7000888791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		48253DDB1C890F7000888791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		48253DDD1C890F7000888791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Chess;
+			};
+			name = Debug;
+		};
+		48253DDE1C890F7000888791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Chess;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48253DD01C890F7000888791 /* Build configuration list for PBXProject "Chess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48253DDA1C890F7000888791 /* Debug */,
+				48253DDB1C890F7000888791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48253DDC1C890F7000888791 /* Build configuration list for PBXNativeTarget "Chess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48253DDD1C890F7000888791 /* Debug */,
+				48253DDE1C890F7000888791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48253DCD1C890F7000888791 /* Project object */;
+}
