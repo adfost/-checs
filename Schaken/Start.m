@@ -23,7 +23,7 @@ void start(void) {
         while (1) {
         begin1:
             fflush(stdin);
-            printf("Entrez votre coup:\n");
+            printf("Saisir votre coup:\n");
             scanf("%s", s);
             z = readString(s);
             s1 = [board.squares[z->x1][z->y1] piece];
@@ -39,7 +39,7 @@ void start(void) {
                         do {
                             scanf("%s", s);
                             @try {
-                                s2 = [[NSClassFromString([NSString stringWithFormat:@"%s",s]) alloc] init];
+                                s2 = [[NSClassFromString(traduction[[NSString stringWithFormat:@"%s",s]]) alloc] init];
                                 s2.x = z->x2;
                                 s2.y = z->y2;
                                 s2.color = WHITE;
